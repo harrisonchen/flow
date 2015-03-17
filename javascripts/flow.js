@@ -7,7 +7,7 @@ app.directive('timer', [function() {
     template: '<div class="set-timer">' +
                 '<form ng-submit="">' +
                   '<input type="number" ng-model="delay" ng-change="updateDelay()" />' +
-                  '<h4 ng-show="delay">Timer set at every <span class="red-color">{{delay}}</span> minutes</h4>' +
+                  '<h4 ng-show="delay">Alert set at every <span class="red-color">{{delay}}</span> minutes</h4>' +
                   '<h4 ng-hide="delay">Input a number please ...</h4>' +
                 '</form>' +
               '</div>',
