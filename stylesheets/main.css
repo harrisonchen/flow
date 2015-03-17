@@ -1,0 +1,52 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  color: #0094E5;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.red-color {
+  color: #FF0000;
+}
+
+.blue-color {
+  color: #0094E5;
+}
+
+.set-timer {
+  text-align: center;
+  color: #0094E5;
+}
+
+.set-timer input {
+  border: 3px solid #0094E5;
+  outline: none;
+  text-align: center;
+  font-size: 32px;
+  color: #0094E5;
+  width: 100px;
+  height: 50px;
+  margin: 8px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
